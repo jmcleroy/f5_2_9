@@ -10,5 +10,5 @@
           - all
         provider:
           server: "{{ inventory_hostname }}"
-          validate_cert: no
+          validate_certs: no
       delegate_to: localhost
